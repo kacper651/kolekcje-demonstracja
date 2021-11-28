@@ -160,9 +160,9 @@ public class PersonConsoleApp {
 		if (person != null) {
 			sb.append("Aktualna osoba: \n")
 			  .append("      Imię: ").append(person.getFirstName()).append("\n")
-			  .append("  Nazwisko: ").append(person.getLastName()).append("\n")
-			  .append("   Rok ur.: ").append(person.getBirthYear()).append("\n")
-			  .append("Stanowisko: ").append(person.getJob()).append("\n");
+			  .append("  Nazwisko: ").append(person.getLastName()).append("\n");
+			 // .append("   Rok ur.: ").append(person.getBirthYear()).append("\n")
+			  //.append("Stanowisko: ").append(person.getJob()).append("\n");
 		} else
 			sb.append( "Brak danych osoby\n" );
 		UI.printMessage( sb.toString() );
